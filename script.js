@@ -104,8 +104,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('touchstart', startAudioOnInteraction);
   }
   
-  // Data do Casamento: 29 de Dezembro de 2026 às 11:00
-const targetDate = new Date("Deczember 29, 2026 19:00:00").getTime();
+  // Data do Casamento: 29 de Dezembro de 2026 às 19:00
+const targetDate = new Date("December 29, 2026 19:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
