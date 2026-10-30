@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Data do Casamento: 29 de Dezembro de 2026 às 19:00
-const targetDate = new Date("December 29, 2026 14:00:00").getTime();
+const targetDate = new Date("December 29, 2026 00:00:00").getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();
