@@ -276,9 +276,7 @@ html, body {
 /* Foto Rodapé */
 .bottom-section {
  width: 100%;
-  height: 171px;
   position: relative;
-  overflow: hidden;
 }
 
 .bottom-photo-wrapper {
