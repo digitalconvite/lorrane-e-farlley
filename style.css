@@ -290,9 +290,8 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center bottom;
+  object-position: center bottom; /* Foca na parte de baixo da imagem floral */
 }
-
 .waiting-text {
   font-family: var(--font-cursive);
   font-size: 3.8rem;
