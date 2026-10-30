@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
   
-    <!-- Ícones do App/Navegador -->
+  <!-- Ícones do App/Navegador -->
   <link href="imagens/icon.png" rel="shortcut icon"/>
   <link href="imagens/icon-192.png" rel="icon" sizes="192x192"/>
   <link href="imagens/icon-180.png" rel="apple-touch-icon" sizes="180x180"/>
@@ -21,131 +22,132 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-   <!-- Música de fundo -->
-<audio id="bg-music" loop src="audio/musica.mp3"></audio>
-<div class="card-container">
+  <!-- Música de fundo -->
+  <audio id="bg-music" loop src="audio/musica.mp3"></audio>
+  
+  <div class="card-container">
 
-  <!-- FOTO DO TOPO -->
-  <div class="top-photo-wrapper">
-    <img src="imagens/floral-cima.png" alt="Flores verde oliva">
-  </div>
+    <!-- FOTO DO TOPO (Floral Cima Ajustado) -->
+    <div class="top-photo-wrapper">
+      <img src="imagens/floral-cima.png" alt="Flores verde oliva">
+    </div>
 
-  <!-- CONTEÚDO PRINCIPAL -->
-  <div class="main-content">
-    
-    <!-- CONTAINER DOS NOMES COM A DECORAÇÃO -->
-    <div class="names-container">
-      <h1 class="couple-names">
-        Lorrane
-        <span>&</span>
-        Farlley
-      </h1>
-      <!-- Bloco de Música com Texto -->
-<div class="music-wrapper">
-  </div>
-</div>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="main-content">
       
-   <!-- Versículo Bíblico -->
-<p class="versiculo-biblico">
-  ‘Tudo tem o seu tempo determinado, e há tempo <br> 
-  para todo o propósito debaixo do céu.’<br>
-  (Eclesiastes 3:1).
-</p>
+      <!-- CONTAINER DOS NOMES COM A DECORAÇÃO -->
+      <div class="names-container">
+        <h1 class="couple-names">
+          Lorrane
+          <span>&</span>
+          Farlley
+        </h1>
+        <!-- Bloco de Música com Texto -->
+        <div class="music-wrapper"></div>
+      </div>
+       
+      <!-- Versículo Bíblico -->
+      <p class="versiculo-biblico">
+        ‘Tudo tem o seu tempo determinado, e há tempo <br> 
+        para todo o propósito debaixo do céu.’<br>
+        (Eclesiastes 3:1).
+      </p>
 
-<!-- Texto da Saudação -->
-<p class="invitation-text">
-  Chegou o momento de consagrarmos nosso amor diante de Deus e seria muito especial ter você conosco.
-</p>
+      <!-- Texto da Saudação -->
+      <p class="invitation-text">
+        Chegou o momento de consagrarmos nosso amor diante de Deus e seria muito especial ter você conosco.
+      </p>
 
-     <!-- SEÇÃO DA DATA COM DECORAÇÕES -->
-    <div class="date-wrapper">
-      <img src="imagens/floral1.png" alt="Decoração Topo" class="date-deco date-deco-top">
+      <!-- SEÇÃO DA DATA COM DECORAÇÕES -->
+      <div class="date-wrapper">
+        <img src="imagens/floral1.png" alt="Decoração Topo" class="date-deco date-deco-top">
 
-      <!-- DATA EM DESTAQUE -->
-      <div class="date-badge">
-        29.12.2026
+        <!-- DATA EM DESTAQUE -->
+        <div class="date-badge">
+          29.12.2026
+        </div>
+
+        <img src="imagens/floral2.png" alt="Decoração Base" class="date-deco date-deco-bottom">
       </div>
 
-      <img src="imagens/floral2.png" alt="Decoração Base" class="date-deco date-deco-bottom">
-    </div>
-
-    <!-- HORA -->
-     <div class="time-text">
-      <i class="far fa-clock"></i>
-      <span>Terça-feira, 18H30</span>
-    </div>
-    
-    <!-- LOCAL -->
-    <div class="location-info">
-      <div class="divider-line"></div>
-      <p class="location-text">Local: <br>Paróquia Nossa Senhora das Graças</p>
-      <div class="divider-line"></div>
-    </div>
-
-    <!-- INSTRUÇÃO -->
-    <p class="touch-instruction">Toque para interagir</p>
-
-    <!-- BOTÕES INTERATIVOS -->
-    <div class="interactive-buttons">
-
-      <!-- Botão 1: Local da Cerimônia (Igreja) -->
-      <a href="https://digitalconvite.github.io/lorrane-e-farlley/local-cerimonia.html" rel="noopener noreferrer" class="btn-row">
-        <div class="icon-square">
-          <i class="fas fa-church"></i>
-        </div>
-        <span class="btn-label">Local da Cerimônia</span>
-      </a>
-      
-      <!-- Botão 2: Confirmar Presença -->
-      <a href="https://noivos.casar.com/lorrane-e-farlley#/rsvp" rel="noopener noreferrer" class="btn-row reverse">
-        <div class="icon-square">
-          <i class="fas fa-user-check"></i>
-        </div>
-        <span class="btn-label">Confirmar Presença<br>Até 30/11</span>
-      </a>
-      
-      <!-- Site -->
-      <a href="https://noivos.casar.com/lorrane-e-farlley#" rel="noopener noreferrer" class="btn-row">
-        <div class="icon-square">
-          <i class="fa-solid fa-window-maximize"></i>
-        </div>
-        <span class="btn-label">Nosso site</span>
-      </a>
-
-
-    </div>
-    
-    <!-- CONTAGEM REGRESSIVA -->
-<div class="countdown-container">
-  <div class="countdown-title">FALTAM</div>
-  <div class="countdown-timer" id="countdown">
-    <div class="time-box">
-      <span id="days">00</span>
-      <small>dias</small>
-    </div>
-    <div class="time-box">
-      <span id="hours">00</span>
-      <small>horas</small>
-    </div>
-    <div class="time-box">
-      <span id="minutes">00</span>
-      <small>min</small>
-    </div>
-    <div class="time-box">
-      <span id="seconds">00</span>
-      <small>seg</small>
-    </div>
-  </div>
-</div>
-
-    <!-- FOTO DA PARTE INFERIOR -->
-    <div class="bottom-section">
-      <div class="waiting-text">
-        Esperamos<br>por você!
+      <!-- HORA -->
+      <div class="time-text">
+        <i class="far fa-clock"></i>
+        <span>Terça-feira, 18H30</span>
       </div>
-      <div class="bottom-photo-wrapper">
-        <img src="imagens/floral-baixo.png" alt="flores verdes">
+      
+      <!-- LOCAL -->
+      <div class="location-info">
+        <div class="divider-line"></div>
+        <p class="location-text">Local: <br>Paróquia Nossa Senhora das Graças</p>
+        <div class="divider-line"></div>
       </div>
+
+      <!-- INSTRUÇÃO -->
+      <p class="touch-instruction">Toque para interagir</p>
+
+      <!-- BOTÕES INTERATIVOS -->
+      <div class="interactive-buttons">
+
+        <!-- Botão 1: Local da Cerimônia (Igreja) -->
+        <a href="https://digitalconvite.github.io/lorrane-e-farlley/local-cerimonia.html" rel="noopener noreferrer" class="btn-row">
+          <div class="icon-square">
+            <i class="fas fa-church"></i>
+          </div>
+          <span class="btn-label">Local da Cerimônia</span>
+        </a>
+       
+        <!-- Botão 2: Confirmar Presença -->
+        <a href="https://noivos.casar.com/lorrane-e-farlley#/rsvp" rel="noopener noreferrer" class="btn-row reverse">
+          <div class="icon-square">
+            <i class="fas fa-user-check"></i>
+          </div>
+          <span class="btn-label">Confirmar Presença<br>Até 30/11</span>
+        </a>
+       
+        <!-- Site -->
+        <a href="https://noivos.casar.com/lorrane-e-farlley#" rel="noopener noreferrer" class="btn-row">
+          <div class="icon-square">
+            <i class="fa-solid fa-window-maximize"></i>
+          </div>
+          <span class="btn-label">Nosso site</span>
+        </a>
+
+      </div>
+      
+      <!-- CONTAGEM REGRESSIVA -->
+      <div class="countdown-container">
+        <div class="countdown-title">FALTAM</div>
+        <div class="countdown-timer" id="countdown">
+          <div class="time-box">
+            <span id="days">00</span>
+            <small>dias</small>
+          </div>
+          <div class="time-box">
+            <span id="hours">00</span>
+            <small>horas</small>
+          </div>
+          <div class="time-box">
+            <span id="minutes">00</span>
+            <small>min</small>
+          </div>
+          <div class="time-box">
+            <span id="seconds">00</span>
+            <small>seg</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOTO DA PARTE INFERIOR (Floral Baixo Ajustado) -->
+      <div class="bottom-section">
+        <div class="waiting-text">
+          Esperamos<br>por você!
+        </div>
+        <div class="bottom-photo-wrapper">
+          <img src="imagens/floral-baixo.png" alt="flores verdes">
+        </div>
+      </div>
+
     </div>
 
   </div>
