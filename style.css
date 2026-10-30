@@ -307,10 +307,9 @@ html, body {
   margin: -5px 0;
 }
 
-/* Modal RSVP */
-.modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10
+.countdown-timer {
+  display: flex;
+  flex-direction: row; /* Garante que fiquem um ao lado do outro */
+  justify-content: center;
+  gap: 15px;
+}
